@@ -379,6 +379,8 @@
 "Assets/Scripts/Interacciones/CollisionInteract.cs"
 "Assets/Scripts/Interacciones/IInteractuable.cs"
 "Assets/Scripts/Interacciones/ObjetoInteractivo.cs"
+"Assets/Scripts/UI/HUDManager.cs"
+"Assets/Scripts/UI/LoginManager.cs"
 "Assets/Scripts/UI/UIManager.cs"
 "Assets/StarterAssets/InputSystem/StarterAssetsInputs.cs"
 "Assets/StarterAssets/Mobile/Scripts/CanvasInputs/UICanvasControllerInput.cs"
