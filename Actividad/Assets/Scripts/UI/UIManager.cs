@@ -40,13 +40,13 @@ public class UIManager : MonoBehaviour
 
     public void TogglePausePanel(bool state)
     {
-        pausePanel.SetActive(state);
+        //pausePanel.SetActive(state);
     }
 
     public void ShowGameOver(int score)
     {
-        gameOverPanel.SetActive(true);
-        //finalScoreText.text = "Puntaje final: " + score;
+        //gameOverPanel.SetActive(true);
+        finalScoreText.text = "Puntaje final: " + score;
     }
 }
 
