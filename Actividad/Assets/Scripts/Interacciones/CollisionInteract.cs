@@ -35,17 +35,14 @@ public class CollisionInteract : MonoBehaviour
     {
         if (ultimoReconocido != null)
         {
-            // Si se presiona E estando dentro de la colisión, ejecuta interacción
-            if (Input.GetKeyDown(KeyCode.E))
+            IInteractuable interactuable = ultimoReconocido.GetComponent<IInteractuable>();
+            if (interactuable != null)
             {
-                IInteractuable interactuable = ultimoReconocido.GetComponent<IInteractuable>();
-                if (interactuable != null)
-                {
-                    interactuable.Interactuar();
+                interactuable.Interactuar();
 
-                    TextDetect.SetActive(false);
-                }
+                TextDetect.SetActive(false);
             }
+
         }
     }
 }
