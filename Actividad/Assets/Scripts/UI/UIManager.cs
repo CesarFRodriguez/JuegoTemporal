@@ -45,7 +45,7 @@ public class UIManager : MonoBehaviour
 
     public void ShowGameOver(int score)
     {
-        //gameOverPanel.SetActive(true);
+        gameOverPanel.SetActive(true);
         finalScoreText.text = "Puntaje final: " + score;
     }
 }
